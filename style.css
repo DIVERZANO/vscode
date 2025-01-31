@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(68, 65, 65);
+    color:rgb(253, 253, 253)
+}
+
+header {
+    background-color: #3f393b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; align-items: center; justify-content: center;
+}
+
+
+main {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+a {
+    color:red ;
+}
+.logo {
+     
+        width: 100px;          /* Ancho de la imagen */
+        height: auto;          /* Ajuste de la altura automático */
+        border: 2px solid black;  /* Borde negro alrededor de la imagen */
+        border-radius: 10px;    /* Bordes redondeados */
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.6);  /* Sombra */    
+}
